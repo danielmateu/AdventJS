@@ -23,7 +23,7 @@
 // const firstRepeatedId3 = findFirstRepeated(giftIds3)
 // console.log(firstRepeatedId3) // 5
 
-const findFirstRepeated = (gifts: number[]): number => {
+export const findFirstRepeated = (gifts: number[]): number => {
     const giftIdsSet = new Set<number>();
     for (let i = 0; i < gifts.length; i++) {
         if (giftIdsSet.has(gifts[i])) {
