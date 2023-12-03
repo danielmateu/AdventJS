@@ -4,7 +4,7 @@
 
 // Tu tarea es escribir una función que identifique y devuelva el primer paso extra que se ha añadido o eliminado en la cadena de fabricación. Si no hay ninguna diferencia entre las secuencias, devuelve una cadena vacía.
 
-function findNaughtyStep(original, modified) {
+export function findNaughtyStep(original, modified) {
     if (original.length < modified.length) {
         // Un paso ha sido añadido
         for (let i = 0; i < modified.length; i++) {
