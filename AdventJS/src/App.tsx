@@ -3,12 +3,14 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { drawGift } from './exercices/07-drawGift'
+import { organizeGifts } from './exercices/08-organizeGifts'
 
 function App() {
   const [count, setCount] = useState(0)
 
-  const resultado = drawGift(4, '+');
-  console.log(resultado);
+  drawGift(4, '+');
+  const orgGifts = organizeGifts(`76a11b`);
+  console.log(orgGifts);
   return (
     <>
       <div>
