@@ -4,7 +4,7 @@
 
 // Un regalo se puede fabricar si contamos con todos los materiales necesarios para fabricarlo.
 
-export function manufacture(gifts, materials) {
+export function manufacture(gifts: string, materials: string): string[] {
     let result: string[] = [];
     for (let i = 0; i < gifts.length; i++) {
         let gift = gifts[i];

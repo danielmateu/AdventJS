@@ -41,6 +41,7 @@ Ten en cuenta que si el trineo está en la misma posición que una barrera, ento
 Los elfos se inspiraron en este reto de Code Wars.
  */
 
+
 function cyberReindeer(road: any, time: number) {
     let arrRoad = [road];
     let index = 0;
